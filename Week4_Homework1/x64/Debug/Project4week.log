@@ -1,0 +1,4 @@
+﻿FifteenPuzlle.obj : error LNK2019: "void __cdecl printRanking(void)" (?printRanking@@YAXXZ)"int __cdecl playFifteenPuzzle(void)" (?playFifteenPuzzle@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+FifteenPuzlle.obj : error LNK2019: "int __cdecl addRanking(int,double)" (?addRanking@@YAHHN@Z)"int __cdecl playFifteenPuzzle(void)" (?playFifteenPuzzle@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+MSVCRTD.lib(exe_main.obj) : error LNK2019: main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\YS-PC\Desktop\전자응용설계\Project4week\x64\Debug\Project4week.exe : fatal error LNK1120: 3개의 확인할 수 없는 외부 참조입니다.
