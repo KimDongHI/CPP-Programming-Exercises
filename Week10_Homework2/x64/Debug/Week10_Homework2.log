@@ -1,0 +1,4 @@
+﻿  MonsterWorldGame.cpp
+C:\Users\User\Desktop\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\Human.h(11,27): error C4996: 'getche': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getche. See online help for details.
+C:\Users\User\Desktop\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\Human.h(13,7): error C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _kbhit. See online help for details.
+C:\Users\User\Desktop\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\MonsterWorld.h(56,3): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
