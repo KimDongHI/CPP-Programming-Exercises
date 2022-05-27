@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f6fdefd5-88a2-4ffb-a48c-7403ce4b7593}</ProjectGuid>
+    <ProjectGuid>{05914c56-df2a-4af1-8a57-6afb351bc964}</ProjectGuid>
     <RootNamespace>Week10Homework2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -139,15 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\Canvas.h" />
-    <ClInclude Include="..\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\Human.h" />
-    <ClInclude Include="..\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\Matrix.h" />
-    <ClInclude Include="..\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\Monster.h" />
-    <ClInclude Include="..\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\MonsterWorld.h" />
-    <ClInclude Include="..\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\VariousMonsters.h" />
+    <ClCompile Include="MonsterWorldGame.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\소스및프로젝트\10장-다형성\10장-MonsterWorldV5\MonsterWorldGame.cpp" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="Human.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="MonsterWorld.h" />
+    <ClInclude Include="VariousMonsters.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
